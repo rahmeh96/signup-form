@@ -19,8 +19,11 @@ export default function Home() {
     const onSubmit= (data)=>{
       console.log(data);
     }
-    const handleClick1 =()=>setOpenModal(true);
-    const handleClick2= ()=> setOpenModal(false);
+    const handleClick =()=>{setOpenModal(true);
+                      document.getElementById('pop').replace('grid-container', 'pop')    }
+   const handleClick2= ()=> {setOpenModal(false);
+      document.getElementById("pop").classList.replace('open', 'grid-container');
+    }
   
     
   return (<>
