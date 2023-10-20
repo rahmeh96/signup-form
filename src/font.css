@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: local('./assets/fonts/Roboto-Bold.ttf'),
+         url(https://fonts.google.com/specimen/Roboto),
+        
+}
